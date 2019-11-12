@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Lakki+Reddy|Yeon+Sung&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lakki+Reddy&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sunshiney&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Special+Elite&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -6,9 +9,10 @@
    
    body {
      overflow-x: hidden;
-     background-color: #aacbe9;
+     background-color: #ffb6c1;
    
    }
+   
    
    .menu {
      margin-top: 4vh;
@@ -33,9 +37,7 @@
      text-decoration: none;
    }
    
-   h1 {
-     text-align: center;
-   }
+ 
     #title {
       margin-top: 5vh;
       margin-bottom: 2vh;
@@ -44,12 +46,32 @@
 
     }
    
-   h1,p {
+   h1 { 
      text-align: center;
      font-family: 'Courier New', Courier, monospace;
    }
    
    p {
-     margin-left: 3vh;
-     font-size: 1.2em
-   }
+    margin-top: 20vh;
+    font-size: 2em;
+    color: #FFD2BC;
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+  }
+  a h2 {
+   margin-left: 10vh;
+    font-size: 1.7em;
+    color: white;
+    font-family: 'Sunshiney', cursive;
+
+  }
+image {
+  margin-right: 5ch;
+}
+h3 {
+  text-align: center;
+}
+h2 {
+  color: rgb(217, 14, 224);
+
+}
